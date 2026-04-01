@@ -60,10 +60,10 @@ Python
 
 **Libraries Used:**
 
-NumPy 
-Pandas 
-Matplotlib 
-Seaborn 
+NumPy, 
+Pandas, 
+Matplotlib, 
+Seaborn, 
 Data Analysis Process 
 
 The project follows a structured Data Analysis Lifecycle.
