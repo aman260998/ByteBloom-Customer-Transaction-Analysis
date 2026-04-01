@@ -1,6 +1,6 @@
 ## ByteBloom Customer Transaction Analysis
 
-#### Project Overview
+### Project Overview
 
 This project performs an end-to-end analysis of customer transaction data for ByteBloom, a fictional mid-sized e-commerce company specializing in consumer electronics, smart home devices, and tech accessories.
 
@@ -58,7 +58,7 @@ Detect customers who may have stopped engaging with the platform and identify be
 
 Python
 
-Libraries Used:
+**Libraries Used:**
 
 NumPy
 Pandas
@@ -68,7 +68,7 @@ Data Analysis Process
 
 The project follows a structured Data Analysis Lifecycle.
 
-1. Data Cleaning
+**1. Data Cleaning**
 
 Initial preprocessing was performed to prepare the dataset for analysis.
 
@@ -79,7 +79,8 @@ Correcting incorrect data types
 Removing duplicate records
 Standardizing categorical values
 Formatting date and time columns
-2. Feature Engineering
+
+**2. Feature Engineering**
 
 Additional features were created from existing columns to improve analytical insights.
 
@@ -92,7 +93,7 @@ Customer activity indicators
 
 These engineered features helped enable deeper behavioral analysis.
 
-3. Exploratory Data Analysis (EDA)
+**3. Exploratory Data Analysis (EDA)**
 
 Exploratory analysis was conducted using statistical summaries and visualizations to uncover patterns in the data.
 
@@ -107,7 +108,7 @@ Customer tenure behavior
 
 Visualizations were created using Matplotlib and Seaborn.
 
-4. Advanced Analysis
+**4. Advanced Analysis**
 
 Advanced analysis techniques were used to evaluate customer behavior and business performance, including:
 
@@ -185,5 +186,6 @@ Customers in the Developing and Established tenure groups represent the highest 
 **Author**
 
 Aman Paliwal
+
 Data Analyst | Data Science Enthusiast
 
