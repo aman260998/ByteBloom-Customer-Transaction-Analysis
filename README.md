@@ -1,5 +1,6 @@
-##ByteBloom Customer Transaction Analysis
-####Project Overview
+## ByteBloom Customer Transaction Analysis
+
+#### Project Overview
 
 This project performs an end-to-end analysis of customer transaction data for ByteBloom, a fictional mid-sized e-commerce company specializing in consumer electronics, smart home devices, and tech accessories.
 
@@ -7,7 +8,7 @@ The objective of this project is to analyze transaction data to uncover patterns
 
 The dataset consists of 30 columns containing transactional and customer-related information, which were processed using Python-based data analysis tools.
 
-###Company Background
+### Company Background
 
 ByteBloom is a growing e-commerce retailer that focuses on selling innovative gadgets, smart home devices, and tech accessories targeted primarily at millennials and Gen Z consumers.
 
@@ -15,7 +16,7 @@ Founded five years ago, ByteBloom initially experienced strong revenue growth du
 
 However, the company is now facing increasing competition from large marketplaces and direct-to-consumer technology brands.
 
-###Business Problem
+### Business Problem
 
 Over the past two quarters, ByteBloom’s revenue growth has stagnated, raising concerns among the executive leadership team.
 
@@ -31,7 +32,7 @@ Management believes that deeper insights from transaction data could help them u
 
 As a data analyst, the task is to analyze ByteBloom’s raw transaction dataset and extract insights that can guide strategic decisions.
 
-###Project Objectives
+### Project Objectives
 
 The analysis was conducted to address the following business objectives:
 
@@ -51,7 +52,7 @@ Analyze how purchasing behavior differs across devices (Desktop vs Mobile) and p
 
 Detect customers who may have stopped engaging with the platform and identify behavioral patterns associated with churn.
 
-###Tools & Technologies
+### Tools & Technologies
 
 **Programming Language**
 
@@ -115,7 +116,9 @@ Customer tenure segmentation
 Discount impact analysis
 Refund rate analysis
 Revenue distribution analysis
-###Key Insights
+
+### Key Insights
+
 **Customer Churn Risk**
 
 Approximately 93 unique customers were identified as being at risk of churning.
@@ -180,6 +183,7 @@ Since discounts show little effect on purchase volume, ByteBloom should focus on
 Customers in the Developing and Established tenure groups represent the highest spending segment and should be targeted with retention and upselling strategies.
 
 **Author**
+
 Aman Paliwal
 Data Analyst | Data Science Enthusiast
 
