@@ -1,192 +1,305 @@
-## ByteBloom Customer Transaction Analysis
+# ByteBloom Customer Transaction Analysis
 
-### Project Overview
+## Project Overview
 
-This project performs an end-to-end analysis of customer transaction data for ByteBloom, a fictional mid-sized e-commerce company specializing in consumer electronics, smart home devices, and tech accessories.
+This project performs an **end-to-end analysis of customer transaction data** for **ByteBloom**, a fictional mid-sized e-commerce company specializing in consumer electronics, smart home devices, and tech accessories.
 
-The objective of this project is to analyze transaction data to uncover patterns in customer behavior, identify churn risks, evaluate product performance, and generate actionable insights that can help the company improve customer retention and drive business growth.
+The objective of this project is to analyze transaction data to:
 
-The dataset consists of 30 columns containing transactional and customer-related information, which were processed using Python-based data analysis tools.
+- Uncover patterns in customer behavior  
+- Identify churn risks  
+- Evaluate product performance  
+- Generate actionable insights  
 
-### Company Background
+These insights can help the company **improve customer retention and drive business growth**.
 
-ByteBloom is a growing e-commerce retailer that focuses on selling innovative gadgets, smart home devices, and tech accessories targeted primarily at millennials and Gen Z consumers.
+The dataset consists of **30 columns containing transactional and customer-related information**, analyzed using Python-based data analysis tools.
 
-Founded five years ago, ByteBloom initially experienced strong revenue growth due to its curated product offerings and strong digital presence through its website and mobile app.
+---
 
-However, the company is now facing increasing competition from large marketplaces and direct-to-consumer technology brands.
+# Company Background
 
-### Business Problem
+**ByteBloom** is a growing e-commerce retailer that focuses on selling:
 
-Over the past two quarters, ByteBloom’s revenue growth has stagnated, raising concerns among the executive leadership team.
+- Innovative gadgets  
+- Smart home devices  
+- Tech accessories  
 
-Although customer acquisition remains stable, early reports indicate that customer retention is declining, and marketing campaigns are becoming less effective.
+The company primarily targets **millennials and Gen Z consumers**.
 
-Additionally:
+Founded five years ago, ByteBloom initially experienced strong revenue growth due to:
 
-Customer acquisition costs are increasing.
-Marketing campaigns are producing diminishing returns.
-Customer behavior patterns are not well understood.
+- Curated product offerings  
+- Strong digital presence through its **website and mobile app**
 
-Management believes that deeper insights from transaction data could help them understand evolving customer behavior and design more targeted marketing strategies.
+However, the company is now facing **increasing competition** from:
 
-As a data analyst, the task is to analyze ByteBloom’s raw transaction dataset and extract insights that can guide strategic decisions.
+- Large online marketplaces  
+- Direct-to-consumer technology brands
 
-### Project Objectives
+---
 
-The analysis was conducted to address the following business objectives:
+# Business Problem
 
-**Identify Valuable Customer Segments**
+Over the past two quarters, **ByteBloom’s revenue growth has stagnated**, raising concerns among the executive leadership team.
 
-Determine which customers contribute the most to revenue based on purchase frequency and spending patterns.
+Although **customer acquisition remains stable**, early reports indicate:
 
-**Analyze Purchasing Patterns**
+- Customer retention is declining  
+- Marketing campaigns are becoming less effective  
 
-Identify popular products, purchasing trends, and sales patterns over time to help improve inventory planning and marketing strategies.
+Additional challenges include:
 
-**Evaluate Sales Channels & Payment Methods**
+- Increasing **customer acquisition costs**
+- **Diminishing returns** from marketing campaigns
+- **Limited understanding of customer behavior patterns**
 
-Analyze how purchasing behavior differs across devices (Desktop vs Mobile) and payment methods.
+Management believes that deeper insights from transaction data can help **understand evolving customer behavior and design better marketing strategies**.
 
-**Identify Churn Risk**
+As a **Data Analyst**, the task is to analyze ByteBloom’s transaction dataset and extract insights that can guide **strategic business decisions**.
 
-Detect customers who may have stopped engaging with the platform and identify behavioral patterns associated with churn.
+---
 
-### Tools & Technologies
+# Project Objectives
 
-**Programming Language**
+The analysis was conducted to address the following business objectives.
 
-Python
+## Identify Valuable Customer Segments
 
-**Libraries Used:**
+Determine which customers contribute the most to revenue based on:
 
-NumPy, 
-Pandas, 
-Matplotlib, 
-Seaborn, 
-Data Analysis Process 
+- Purchase frequency  
+- Spending patterns
 
-The project follows a structured Data Analysis Lifecycle.
+## Analyze Purchasing Patterns
 
-**1. Data Cleaning**
+Identify:
+
+- Popular products  
+- Purchasing trends  
+- Sales patterns over time  
+
+This helps improve **inventory planning and marketing strategies**.
+
+## Evaluate Sales Channels & Payment Methods
+
+Analyze purchasing behavior across:
+
+- Devices (**Desktop vs Mobile**)  
+- Payment methods  
+
+## Identify Churn Risk
+
+Detect customers who may have **stopped engaging with the platform** and identify behavioral patterns associated with churn.
+
+---
+
+# Tools & Technologies
+
+## Programming Language
+
+- **Python**
+
+## Libraries Used
+
+- **NumPy**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
+
+---
+
+# Data Analysis Process
+
+The project follows a **structured Data Analysis Lifecycle**.
+
+---
+
+## 1. Data Cleaning
 
 Initial preprocessing was performed to prepare the dataset for analysis.
 
-Steps included:
+Key steps included:
 
-Handling missing values
-Correcting incorrect data types
-Removing duplicate records
-Standardizing categorical values
-Formatting date and time columns
+- Handling missing values  
+- Correcting incorrect data types  
+- Removing duplicate records  
+- Standardizing categorical values  
+- Formatting date and time columns  
 
-**2. Feature Engineering**
+---
+
+## 2. Feature Engineering
 
 Additional features were created from existing columns to improve analytical insights.
 
 Examples include:
 
-Customer tenure groups
-Days since last login
-Transaction value metrics
-Customer activity indicators
+- Customer tenure groups  
+- Days since last login  
+- Transaction value metrics  
+- Customer activity indicators  
 
-These engineered features helped enable deeper behavioral analysis.
+These engineered features enabled **deeper behavioral analysis**.
 
-**3. Exploratory Data Analysis (EDA)**
+---
 
-Exploratory analysis was conducted using statistical summaries and visualizations to uncover patterns in the data.
+## 3. Exploratory Data Analysis (EDA)
 
-Areas analyzed include:
+Exploratory analysis was conducted using **statistical summaries and visualizations** to uncover patterns in the data.
 
-Customer spending behavior
-Product category performance
-Refund rates
-Store performance
-Discount effectiveness
-Customer tenure behavior
+Key areas analyzed include:
 
-Visualizations were created using Matplotlib and Seaborn.
+- Customer spending behavior  
+- Product category performance  
+- Refund rates  
+- Store performance  
+- Discount effectiveness  
+- Customer tenure behavior  
 
-**4. Advanced Analysis**
+Visualizations were created using **Matplotlib and Seaborn**.
 
-Advanced analysis techniques were used to evaluate customer behavior and business performance, including:
+---
 
-Churn risk identification
-Customer tenure segmentation
-Discount impact analysis
-Refund rate analysis
-Revenue distribution analysis
+## 4. Advanced Analysis
 
-### Key Insights
+Advanced analytical techniques were applied to evaluate customer behavior and business performance, including:
 
-**Customer Churn Risk**
+- Churn risk identification  
+- Customer tenure segmentation  
+- Discount impact analysis  
+- Refund rate analysis  
+- Revenue distribution analysis  
 
-Approximately 93 unique customers were identified as being at risk of churning.
+---
 
-These customers had an average of 210.70 days since their last login, significantly exceeding the churn threshold of 72.25 days, which was calculated using the 75th percentile of the days_since_last_login metric.
+# Key Insights
 
-**High Refund Categories**
+## Customer Churn Risk
 
-Certain product categories exhibit higher refund rates:
+- **93 unique customers** were identified as being at risk of churning.
+- These customers had an **average of 210.70 days since their last login**.
 
-Home Goods: 27.27%
-Electronics: 26.83%
-Beauty: 26.63%
+The churn threshold was calculated using the **75th percentile** of the `days_since_last_login` metric:
 
-These high return rates may indicate issues with product quality, customer expectations, or product descriptions.
+- **Churn Threshold:** 72.25 days
 
-**Customer Age vs Product Category**
+---
 
-The analysis found no strong relationship between customer age and the product categories purchased.
+## High Refund Categories
 
-Customer age distributions were relatively similar across product categories.
+Certain product categories show **higher refund rates**:
 
-**Top Revenue Store**
+| Category | Refund Rate |
+|--------|--------|
+| Home Goods | 27.27% |
+| Electronics | 26.83% |
+| Beauty | 26.63% |
 
-STORE-002 generated the highest revenue, totaling $95,288.12, making it the top-performing store location in the dataset.
+These high return rates may indicate:
 
-**Discount Impact on Sales Quantity**
+- Product quality issues  
+- Mismatch between product expectations and reality  
+- Inaccurate product descriptions  
 
-The correlation between discount percentage and quantity purchased is extremely weak.
+---
 
-Pearson Correlation Coefficient: 0.03
+## Customer Age vs Product Category
 
-This suggests that discounts do not significantly increase purchase volume, indicating that promotions may not be the primary driver of customer purchases.
+The analysis found **no strong relationship between customer age and product categories purchased**.
 
-**Customer Tenure & Spending Patterns**
+Customer age distributions were **relatively similar across product categories**.
+
+---
+
+## Top Revenue Store
+
+**STORE-002** generated the highest revenue in the dataset.
+
+**Total Revenue:** `$95,288.12`
+
+---
+
+## Discount Impact on Sales Quantity
+
+The correlation between **discount percentage and quantity purchased** is extremely weak.
+
+**Pearson Correlation Coefficient:** `0.03`
+
+This suggests:
+
+- Discounts do **not significantly increase purchase volume**
+- Promotions may **not be the primary driver of purchases**
+
+---
+
+## Customer Tenure & Spending Patterns
 
 Customer tenure analysis revealed interesting spending behavior:
 
-Most transactions come from newer customers with lower tenure.
-Mid-tenure customers show the highest average transaction value:
-Developing customers: ~$1429.77
-Established customers: ~$1419.49
-Loyal customers (longest tenure) have the lowest average transaction value at $1140.72.
+| Customer Segment | Average Transaction Value |
+|-----------------|--------------------------|
+| Developing Customers | $1429.77 |
+| Established Customers | $1419.49 |
+| Loyal Customers | $1140.72 |
 
-### Business Recommendations
+Key Insights:
 
-Based on the insights generated from the analysis, the following recommendations can help ByteBloom improve performance.
+- **Mid-tenure customers spend the most**
+- **Long-term loyal customers show lower average spending**
 
-**Investigate High Refund Categories**
+---
 
-ByteBloom should examine the causes of high refund rates in Home Goods, Electronics, and Beauty categories to reduce operational costs and improve customer satisfaction.
+# Business Recommendations
 
-**Re-engage Loyal Customers**
+Based on the insights generated, the following recommendations can help ByteBloom improve performance.
 
-The lower spending levels among long-term customers suggest an opportunity to introduce personalized promotions or loyalty incentives.
+## Investigate High Refund Categories
 
-**Optimize Marketing Strategies**
+ByteBloom should investigate the causes of high refund rates in:
 
-Since discounts show little effect on purchase volume, ByteBloom should focus on targeted promotions and personalized recommendations rather than broad discount campaigns.
+- Home Goods  
+- Electronics  
+- Beauty  
 
-**Focus on Mid-Tenure Customers**
+This can help reduce **operational costs** and improve **customer satisfaction**.
 
-Customers in the Developing and Established tenure groups represent the highest spending segment and should be targeted with retention and upselling strategies.
+---
 
-**Author**
+## Re-engage Loyal Customers
 
-Aman Paliwal
+Lower spending among long-term customers indicates an opportunity to introduce:
+
+- Personalized promotions  
+- Loyalty rewards  
+- Exclusive offers
+
+---
+
+## Optimize Marketing Strategies
+
+Since discounts show **minimal impact on purchase volume**, the company should focus on:
+
+- Targeted promotions  
+- Personalized product recommendations  
+- Customer segmentation strategies  
+
+---
+
+## Focus on Mid-Tenure Customers
+
+Customers in the **Developing and Established tenure groups** represent the **highest spending segment**.
+
+Strategies should focus on:
+
+- Retention campaigns  
+- Upselling opportunities  
+- Personalized engagement  
+
+---
+
+# Author
+
+**Aman Paliwal**
 
 Data Analyst | Data Science Enthusiast
-
