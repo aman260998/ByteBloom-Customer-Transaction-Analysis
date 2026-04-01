@@ -60,11 +60,11 @@ Python
 
 **Libraries Used:**
 
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Data Analysis Process
+NumPy 
+Pandas 
+Matplotlib 
+Seaborn 
+Data Analysis Process 
 
 The project follows a structured Data Analysis Lifecycle.
 
@@ -163,7 +163,8 @@ Mid-tenure customers show the highest average transaction value:
 Developing customers: ~$1429.77
 Established customers: ~$1419.49
 Loyal customers (longest tenure) have the lowest average transaction value at $1140.72.
-Business Recommendations
+
+### Business Recommendations
 
 Based on the insights generated from the analysis, the following recommendations can help ByteBloom improve performance.
 
